@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
 const App = () => {
-
-
   return (
     <div className="container">
       <section className="row">
@@ -13,40 +11,24 @@ const App = () => {
       </section>
       <section className="row">
         <div className="col col-md-4">
-          <form >
+          <form>
             <div className="mb-3">
               <label>Nombre completo</label>
-              <input
-                type="text"
-                className="form-control"
-               
-                name="nombre"
-              />
+              <input type="text" className="form-control" name="nombre" />
             </div>
             <div className="mb-3">
               <label>Correo electrónico</label>
-              <input
-                type="email"
-                className="form-control"
-                
-                name="email"
-              />
+              <input type="email" className="form-control" name="email" />
             </div>
             <div className="mb-3">
               <label>Contraseña</label>
-              <input
-                type="password"
-                className="form-control"
-              
-                name="password"
-              />
+              <input type="password" className="form-control" name="password" />
             </div>
             <div className="mb-3">
               <label>Repetir contraseña</label>
               <input
                 type="password"
                 className="form-control"
-               
                 name="re_password"
               />
             </div>
